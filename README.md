@@ -20,10 +20,8 @@
 
 ![image](https://user-images.githubusercontent.com/41849043/223781141-0ea7cb9a-2e7c-4391-b5b3-4440bb74632d.png)
 
-
 ### Prueba realizada con el método DELETE
 
 ![image](https://user-images.githubusercontent.com/41849043/223780644-71fc87bb-3e48-4eb6-b6d7-89542da59ee4.png)
-
 
 ![image](https://user-images.githubusercontent.com/41849043/223780750-530a6165-15a6-4e3b-9848-a4ff3dead48c.png)

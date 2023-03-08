@@ -8,8 +8,13 @@ router.get("/", async function (req, res, next) {
   res.json(resultado);
 });
 
-router.get("/:id", function (req, res, next) {
-  res.json("Encontrando producto");
+router.get("/:id", async function (req, res, next) {
+  const resultado = await productModel.findOne(req.body);
+  if (resultado != null) {
+    res.json(resultado);
+  } else {
+    res.json("No se encontro");
+  }
 });
 
 router.post("/", async function (req, res, next) {
