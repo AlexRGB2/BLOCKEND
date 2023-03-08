@@ -9,7 +9,7 @@ const bodyParser = require("body-parser"); //add
 const monk = require("monk"); //add
 var indexRouter = require("./routes/index");
 var productsRouter = require("./routes/products");
-
+const cors = require("cors");
 var app = express();
 
 const dotenv = require("dotenv");
@@ -21,6 +21,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jade");
 
 app.use(logger("dev"));
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
